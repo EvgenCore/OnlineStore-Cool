@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { ROUTES } from "../../utils/routes";
 
 import { addToCart } from "../../features/cart/cartSlice";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { addToFavourites } from "../../features/favourites/favouritesSlice";
 
 

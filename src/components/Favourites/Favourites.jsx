@@ -22,7 +22,7 @@ export const Favourites = () => {
             <>
                 <div className={style.list}>
                     {favouritesItems.map((item)=>{
-                        const { title, category, images, price, id, quantity} = item
+                        const { title, category, images, price, id} = item
 
                         return (
                             <div className={style.item} key={id}>

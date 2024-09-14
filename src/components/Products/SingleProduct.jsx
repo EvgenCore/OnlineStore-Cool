@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from 'react'
 import data from '../../data/dataBase.json'
 
