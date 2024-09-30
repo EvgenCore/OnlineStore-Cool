@@ -12,7 +12,7 @@ export const Poster = () => (
       <div className={styles.text}>
         <div className={styles.subtitle}>the bestseller of 2022</div>
         <h1 className={styles.head}>LENNON r2d2 with NVIDIA 5090 TI</h1>
-        <button className={styles.button}><Link to={'/products/16'}>Shop Now</Link></button>
+        <Link to={'/products/16'}><button className={styles.button}>Shop Now</button></Link>
       </div>
       <div className={styles.image}>
         <img src={BG} alt="" />
